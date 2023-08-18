@@ -1,0 +1,18 @@
+{
+  "name": "drravichatterjee",
+  "version": "1.0.0",
+  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build desktop-53.html"
+  },
+  "parcel": {
+    "outDir": "dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
