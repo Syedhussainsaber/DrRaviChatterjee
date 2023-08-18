@@ -1,29 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.desktop-53 {
-  width: 100%;
-  padding: 0;
+  line-height: 1.2;
+  overflow-x: hidden;
 }
 
 .desktop-53-child {
   background-color: var(--color-gray-100);
-  width: 90.06rem;
+  width: 100%;
   height: 88.94rem;
   position: absolute;
   top: 204.38rem;
-  left: calc(50% - 721px);
 }
 
 .desktop-53-item {
-  object-fit: cover;
-  width: 90rem;
-  height: 47rem;
+  width: 100%;
+  height: 100vh;
   position: absolute;
-  bottom: 246.31rem;
-  left: calc(50% - 720px);
 }
 
 .desktop-53-inner {
@@ -43,7 +36,7 @@
   width: 23.63rem;
   display: inline-block;
   position: absolute;
-  top: 25.75rem;
+  top: 26.75rem;
   left: 8rem;
 }
 
@@ -54,7 +47,7 @@
 
 .dr-ravi-chatterjee2 {
   font-weight: 500;
-  top: 2.56rem;
+  top: 2rem;
   left: 2.25rem;
 }
 
@@ -95,13 +88,12 @@
 .rectangle-icon {
   border-radius: var(--br-30xl);
   object-fit: cover;
-  width: 74.25rem;
+  width: 100%;
 }
 
 .frame-child1 {
   border-radius: var(--br-30xl) 0 0 var(--br-30xl);
   background: linear-gradient(90deg, #000, #0000);
-  width: 39.25rem;
 }
 
 .i-am2 {
@@ -132,7 +124,7 @@
 .frame-child2 {
   border-radius: var(--br-30xl);
   object-fit: cover;
-  width: 74.25rem;
+  width: 100%;
 }
 
 .frame-child3 {
@@ -218,12 +210,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 90.06rem;
+  width: 100%;
   height: 67.13rem;
   padding: 9.25rem 0;
   display: flex;
-  top: 47rem;
-  left: calc(50% - 721px);
+  top: 100vh;
 }
 
 .frame-child4 {
@@ -271,7 +262,6 @@
 .frame-child5 {
   border-radius: var(--br-5xl);
   object-fit: cover;
-  width: 17.63rem;
   height: 23.06rem;
   position: absolute;
   top: 13rem;
@@ -395,7 +385,7 @@
   width: 74.25rem;
   height: 45.69rem;
   position: absolute;
-  top: 104.88rem;
+  top: 214vh;
   left: calc(50% - 594px);
 }
 
@@ -979,7 +969,7 @@
   height: 35.19rem;
   position: absolute;
   top: 256.63rem;
-  left: 6.31rem;
+  left: 11.5rem;
 }
 
 .desktop-53 {
