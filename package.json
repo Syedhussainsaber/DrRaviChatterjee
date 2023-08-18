@@ -5,7 +5,8 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build desktop-53.html"
+    "build": "parcel build ./*.html",
+    "start": "parcel desktop-53.html"
   },
   "parcel": {
     "outDir": "dist"
